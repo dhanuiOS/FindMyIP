@@ -11,6 +11,16 @@
 		231924972BB680AD00837F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231924962BB680AD00837F45 /* ContentView.swift */; };
 		231924992BB680AE00837F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231924982BB680AE00837F45 /* Assets.xcassets */; };
 		2319249C2BB680AE00837F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2319249B2BB680AE00837F45 /* Preview Assets.xcassets */; };
+		234D50582BB83F5D006C5224 /* IpServiceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D50572BB83F5D006C5224 /* IpServiceViewModelTests.swift */; };
+		234D50592BB83FCD006C5224 /* IpServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1342BB68922005E5BAD /* IpServiceViewModel.swift */; };
+		234D505A2BB84050006C5224 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B12D2BB6872B005E5BAD /* NetWorkManager.swift */; };
+		234D505C2BB84433006C5224 /* testjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 234D505B2BB84433006C5224 /* testjson.json */; };
+		234D505D2BB84623006C5224 /* IpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1252BB68530005E5BAD /* IpModel.swift */; };
+		234D505E2BB846F4006C5224 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1272BB685EB005E5BAD /* EndPoint.swift */; };
+		234D505F2BB846FE006C5224 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1292BB68610005E5BAD /* URLRequestBuilder.swift */; };
+		234D50602BB84710006C5224 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1302BB68796005E5BAD /* Constants.swift */; };
+		234D50612BB84717006C5224 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1322BB68888005E5BAD /* AppError.swift */; };
+		234D50622BB8495F006C5224 /* testjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 234D505B2BB84433006C5224 /* testjson.json */; };
 		23B9B1262BB68530005E5BAD /* IpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1252BB68530005E5BAD /* IpModel.swift */; };
 		23B9B1282BB685EB005E5BAD /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1272BB685EB005E5BAD /* EndPoint.swift */; };
 		23B9B12A2BB68610005E5BAD /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1292BB68610005E5BAD /* URLRequestBuilder.swift */; };
@@ -18,7 +28,6 @@
 		23B9B1312BB68796005E5BAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1302BB68796005E5BAD /* Constants.swift */; };
 		23B9B1332BB68888005E5BAD /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1322BB68888005E5BAD /* AppError.swift */; };
 		23B9B1352BB68922005E5BAD /* IpServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1342BB68922005E5BAD /* IpServiceViewModel.swift */; };
-		23B9B1482BB7E7C5005E5BAD /* FindMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1472BB7E7C5005E5BAD /* FindMyIPTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,8 @@
 		231924962BB680AD00837F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		231924982BB680AE00837F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2319249B2BB680AE00837F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		234D50572BB83F5D006C5224 /* IpServiceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpServiceViewModelTests.swift; sourceTree = "<group>"; };
+		234D505B2BB84433006C5224 /* testjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testjson.json; sourceTree = "<group>"; };
 		23B9B1252BB68530005E5BAD /* IpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpModel.swift; sourceTree = "<group>"; };
 		23B9B1272BB685EB005E5BAD /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		23B9B1292BB68610005E5BAD /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
@@ -45,7 +56,6 @@
 		23B9B1322BB68888005E5BAD /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		23B9B1342BB68922005E5BAD /* IpServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpServiceViewModel.swift; sourceTree = "<group>"; };
 		23B9B1452BB7E7C5005E5BAD /* FindMyIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23B9B1472BB7E7C5005E5BAD /* FindMyIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +163,8 @@
 		23B9B1462BB7E7C5005E5BAD /* FindMyIPTests */ = {
 			isa = PBXGroup;
 			children = (
-				23B9B1472BB7E7C5005E5BAD /* FindMyIPTests.swift */,
+				234D505B2BB84433006C5224 /* testjson.json */,
+				234D50572BB83F5D006C5224 /* IpServiceViewModelTests.swift */,
 			);
 			path = FindMyIPTests;
 			sourceTree = "<group>";
@@ -239,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234D50622BB8495F006C5224 /* testjson.json in Resources */,
 				2319249C2BB680AE00837F45 /* Preview Assets.xcassets in Resources */,
 				231924992BB680AE00837F45 /* Assets.xcassets in Resources */,
 			);
@@ -248,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234D505C2BB84433006C5224 /* testjson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B9B1482BB7E7C5005E5BAD /* FindMyIPTests.swift in Sources */,
+				234D50582BB83F5D006C5224 /* IpServiceViewModelTests.swift in Sources */,
+				234D50592BB83FCD006C5224 /* IpServiceViewModel.swift in Sources */,
+				234D505E2BB846F4006C5224 /* EndPoint.swift in Sources */,
+				234D505D2BB84623006C5224 /* IpModel.swift in Sources */,
+				234D50612BB84717006C5224 /* AppError.swift in Sources */,
+				234D50602BB84710006C5224 /* Constants.swift in Sources */,
+				234D505A2BB84050006C5224 /* NetWorkManager.swift in Sources */,
+				234D505F2BB846FE006C5224 /* URLRequestBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
