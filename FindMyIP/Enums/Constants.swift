@@ -17,8 +17,6 @@ enum Constants {
     static let requestTimeout = TimeInterval(10)
 }
 
-
-
 /// Enum to defing color constants being used in app.
 enum AppColor {
     static let primary = Color(red: 0, green: 202/255, blue: 167/255)

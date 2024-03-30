@@ -18,7 +18,6 @@
 		23B9B1312BB68796005E5BAD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1302BB68796005E5BAD /* Constants.swift */; };
 		23B9B1332BB68888005E5BAD /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1322BB68888005E5BAD /* AppError.swift */; };
 		23B9B1352BB68922005E5BAD /* IpServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1342BB68922005E5BAD /* IpServiceViewModel.swift */; };
-		23B9B1382BB689D8005E5BAD /* CodeAbleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1372BB689D8005E5BAD /* CodeAbleExtensions.swift */; };
 		23B9B1482BB7E7C5005E5BAD /* FindMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9B1472BB7E7C5005E5BAD /* FindMyIPTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		23B9B1302BB68796005E5BAD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		23B9B1322BB68888005E5BAD /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		23B9B1342BB68922005E5BAD /* IpServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpServiceViewModel.swift; sourceTree = "<group>"; };
-		23B9B1372BB689D8005E5BAD /* CodeAbleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAbleExtensions.swift; sourceTree = "<group>"; };
 		23B9B1452BB7E7C5005E5BAD /* FindMyIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B9B1472BB7E7C5005E5BAD /* FindMyIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +87,6 @@
 		231924932BB680AD00837F45 /* FindMyIP */ = {
 			isa = PBXGroup;
 			children = (
-				23B9B1362BB689B7005E5BAD /* Extensions */,
 				23B9B12F2BB6878A005E5BAD /* Enums */,
 				231924A52BB683EB00837F45 /* Network */,
 				231924A42BB683D600837F45 /* ViewModels */,
@@ -151,14 +148,6 @@
 				23B9B1322BB68888005E5BAD /* AppError.swift */,
 			);
 			path = Enums;
-			sourceTree = "<group>";
-		};
-		23B9B1362BB689B7005E5BAD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				23B9B1372BB689D8005E5BAD /* CodeAbleExtensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		23B9B1462BB7E7C5005E5BAD /* FindMyIPTests */ = {
@@ -277,7 +266,6 @@
 				23B9B1352BB68922005E5BAD /* IpServiceViewModel.swift in Sources */,
 				23B9B12E2BB6872B005E5BAD /* NetWorkManager.swift in Sources */,
 				23B9B1262BB68530005E5BAD /* IpModel.swift in Sources */,
-				23B9B1382BB689D8005E5BAD /* CodeAbleExtensions.swift in Sources */,
 				23B9B1312BB68796005E5BAD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

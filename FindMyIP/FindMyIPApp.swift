@@ -16,7 +16,6 @@ struct FindMyIPApp: App {
             ContentView(viewModel: viewModel)
                 .environmentObject(viewModel)
                 .onAppear {
-                
                     viewModel.fetchIps()
                 }
 

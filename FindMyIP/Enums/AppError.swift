@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 /// Enum to define app errors
 enum AppError: Int, Error {
     case api
@@ -14,5 +13,4 @@ enum AppError: Int, Error {
     case technical
     case timeout
     case unknown
-
 }
